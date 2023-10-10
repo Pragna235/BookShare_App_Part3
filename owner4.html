@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/Product">
+<head profile="http://www.w3.org/2005/10/profile">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="SHORTCUT ICON" href="./index_files/favicon.png">
+    <link rel="icon" type="image/png" href="./index_files/favicon.png">
+    <title>BookShare: Share the love of books</title>
+    <meta itemprop="name" content="BookShare">
+    <meta itemprop="description" content="BookShare: Share the love of books">
+    <meta itemprop="image" content="./index_files/favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Style for form elements */
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="email"],
+        input[type="text"],
+        textarea,
+        input[type="submit"] {
+            width: 23%; /* Reduce the width */
+            padding: 5px; /* Reduce the padding */
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        
+
+        /* Center the submit button */
+        input[type="submit"] {
+            width: auto;
+            margin: 0 auto;
+            display: block;
+            background-color: #3498db;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #27ae60;
+        }
+
+        /* Add some padding to the content */
+        #content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <img src="./About BookShare_files/bookshare_logo.gif" width="283" height="66" alt="BookShare logo">
+</div>
+<div id="navigation">
+    <a title="Browse" href="./Browse for books.html"><span>Browse</span></a> |
+    <a title="Add" href="./Add.html"><span>Add</span></a> |
+    <a title="Inventory" href="./Inventory.html"><span>Inventory</span></a> |
+    <a title="Wishlist" href="./Wishlist.html"><span>Wishlist</span></a> |
+    <a title="Pending" href="./Pending.html"><span>Pending</span></a> | 
+    <a title="Member Home" href="./DashBoard.html"><span>Member Home</span></a>
+</div>
+
+<div id="content">
+    <h1>Email Founding Team</h1>
+    <p>If you have a question which only Founding Team can answer, please ask it here:</p>
+    <form action="mailto:support@example.com" method="post" enctype="text/plain">
+        <label for="email">Your Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <label for="security-check">Security Check: What is 2 + 3?</label>
+        <input type="text" id="security-check" name="security-check" required>
+        
+        <input type="submit" value="Send Email">
+    </form>
+</div>
+<br>
+<center><a href="./Join BookShare.html">Sign up</a> to see if you are not an existing member.</center>
+<div id="footer">
+    &copy; 2023 BookShare
+</div>
+</body>
+</html>

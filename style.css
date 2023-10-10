@@ -1,0 +1,145 @@
+/* Your custom styles go here */
+/* Styling for index.html */
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#navigation {
+    background-color: #2ecc71;
+    padding: 10px;
+    text-align: center;
+    font-family: "Your Custom Font", 'Courier New', Courier, monospace, sans-serif; /* Change "Your Custom Font" to the desired font name */
+}
+
+#navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#navigation a:hover {
+    background-color: #27ae60;
+}
+
+#navigation a span {
+    font-weight: bold;
+}
+
+#search-bar {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#search-input {
+    width: 60%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-button {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#content {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+#content h1 {
+    text-align: center;
+}
+
+#content img {
+    display: block;
+    margin: 0 auto;
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+}
+
+#content h2 {
+    text-align: center;
+}
+
+#content .how-it-works {
+    background-color: #95D8EB; /* Background color for this section */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: black; /* Text color for this section */
+}
+
+#content .how-it-works h2 {
+    color: black;
+}
+
+#content .how-it-works ol {
+    text-align: left;
+    list-style-type: decimal;
+    font-weight: bold;
+}
+
+#content .how-it-works li {
+    margin-bottom: 10px;
+}
+
+#content table {
+    margin: 0 auto;
+    border-collapse: collapse; /* Add this line to collapse borders between table cells */
+}
+
+#content table td {
+    border: 1px solid black; /* Add this line to add borders to table cells */
+    padding: 5px; /* Add padding for better spacing */
+}
+
+#footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styling for About BookShare.html */
+
+/* Style for the "Overview" button */
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #27ae60;
+}
+
+/* Style for the button container */
+.button-container {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
